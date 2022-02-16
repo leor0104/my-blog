@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 48px;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.introTitle {
+    display: flex;
+    font-family: 'Nunito Sans';
+    font-size: 3.6rem;
+    font-weight: 800;
+    padding-left: 48px;
+}
+
+.introDescription {
+    display: flex;
+    font-family: 'Open Sans';
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 48px;
+}
+
+.introResume {
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
