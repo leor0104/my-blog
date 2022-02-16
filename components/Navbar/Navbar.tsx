@@ -23,12 +23,12 @@ const Navbar = () => {
             Leor
           </Menu.Item>
         </Link>
-        <Link href="/cart" passHref>
+        <Link href="/" passHref>
           <Menu.Item active={pathname === '/cart'}>
             Contact
           </Menu.Item>
         </Link>
-        <Link href="/cart" passHref>
+        <Link href="/" passHref>
           <Menu.Item active={pathname === '/cart'}>
             Work
           </Menu.Item>
@@ -38,7 +38,7 @@ const Navbar = () => {
             About
           </Menu.Item>
         </Link>
-        <Link href="/cart" passHref>
+        <Link href="/" passHref>
           <Menu.Item active={pathname === '/cart'}>
             Services
           </Menu.Item>
