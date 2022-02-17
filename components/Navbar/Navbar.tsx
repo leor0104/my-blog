@@ -1,7 +1,7 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { Menu, Container, Input} from 'semantic-ui-react'
+import { Menu, Container} from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css';
 
 import { Avocado } from '@components/SVGIcons'
@@ -12,15 +12,14 @@ const Navbar = () => {
 
 
   return (
-    <Menu size="huge" borderless pointing as="header" position="right">
+    <Menu secondary as="header" color='grey' >
       <Container text>
         <Link href="/" passHref>
           <Menu.Item
             active={pathname === '/'}
             title="Inicio | Todos los productos"
           >
-            <Avocado />
-            Leor
+            Leor IND
           </Menu.Item>
         </Link>
         <Link href="/" passHref>
@@ -38,20 +37,20 @@ const Navbar = () => {
             About
           </Menu.Item>
         </Link>
-        <Link href="/" passHref>
-          <Menu.Item active={pathname === '/cart'}>
+        <Link href="/services" passHref>
+          <Menu.Item active={pathname === '/services'}>
             Services
           </Menu.Item>
         </Link>
         <Menu.Menu position='right'>
-            <Menu.Item>
-              <ButtonGroup/>
-            </Menu.Item>
-          </Menu.Menu>
-          </Container>
+          <Menu.Item>
+            <ButtonGroup />
+          </Menu.Item>
+        </Menu.Menu>
+      </Container>
       <style jsx global>{`
-        .ui.menu.huge {
-          font-size: 1.5rem;
+        .ui.menu.secondary {
+          font-size: 1.2rem;
         }
       `}</style>
     </Menu>
