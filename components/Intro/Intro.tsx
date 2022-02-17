@@ -8,10 +8,12 @@ const Intro = () => (
     <div className={styles.container}>
         <Image src={src} size="medium" />
         <div className={styles.introResume}>
-            <div className={styles.introTitle}>Hello, I'm Luis</div>
-            <div className={styles.introDescription}>
-                <p>
-                Young student, 21 years old, final year student of design, Systems and Computer Engineering.
+            <div className={styles.introTitle}>Hi, I'm Luis</div>
+            <div >
+                <p className={styles.introDescription}>
+                    I have been part of university projects achieving experience
+                    in front-end development of web and mobile applications for educational purposes.
+                    Using languages and technologies such as Javascript, Typescript, React and NextJS.
                 </p>
             </div>
         </div>
