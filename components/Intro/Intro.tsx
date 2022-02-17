@@ -4,7 +4,7 @@ import { Image } from 'semantic-ui-react'
 
 const src = "/images/subaru.jpg"
 
-const ImageFloated = () => (
+const Intro = () => (
     <div className={styles.container}>
         <Image src={src} size="medium" />
         <div className={styles.introResume}>
@@ -18,4 +18,4 @@ const ImageFloated = () => (
     </div>
 )
 
-export default ImageFloated
+export default Intro
