@@ -3,15 +3,33 @@ import Header from "@components/Header/Header";
 import Layout from "@components/Layout/Layout";
 
 const ServicesPage = () => {
-    return (
-      <Layout>
-          <Header
-          title="Services"
-          />
-          <p>My Projects</p>
-          <p>Quick blurb about the work you’ve done</p>
-          <Card/>
-      </Layout>
-    )
+  return (
+    <Layout>
+      <Header
+        title="Services"
+      />
+      <h2>My Projects</h2>
+      <p>Quick blurb about the work you’ve done</p>
+      <div>
+        <Card />
+      </div>
+      <style jsx>
+        {`
+          div {
+            display: flex;
+            align-items: baseline;
+            flex-wrap: wrap;
+          }
+          h2 {
+            font-family: 'Nunito Sans';
+          }
+          p{
+            font-family: 'Open Sans';
+            font-size: 0.9em;
+          }
+        `}
+      </style>
+    </Layout>
+  )
 }
 export default ServicesPage;
