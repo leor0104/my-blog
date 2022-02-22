@@ -7,7 +7,7 @@ const Footer = () => (
     vertical
     as="footer"
     style={{
-      padding: '4em 0em',
+      padding: '2em 0em',
       marginTop: '3em',
       borderTop: '1px solid #f2f2f2',
     }}
@@ -29,7 +29,7 @@ const Footer = () => (
             <Header as="h4" content="Servicios" />
             <List>
               <List.Item>
-                <Link href="/">
+                <Link href="/services">
                   <a>Todos los productos</a>
                 </Link>
               </List.Item>
@@ -80,7 +80,7 @@ const Footer = () => (
     <style jsx>{`
       .colophon {
         text-align: center;
-        margin-top: 3.2rem;
+        margin-top: 2rem;
         font-size: 0.8rem;
       }
       .colophon-entry {
