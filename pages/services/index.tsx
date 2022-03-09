@@ -9,7 +9,7 @@ const ServicesPage = () => {
         title="Services"
       />
       <h2>My Projects</h2>
-      <p>Quick blurb about the work you’ve done</p>
+      <p>A brief review of what I have enjoyed doing</p>
       <div>
         <Card />
       </div>
