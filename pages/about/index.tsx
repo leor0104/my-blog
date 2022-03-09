@@ -4,29 +4,39 @@ import Layout from '@components/Layout/Layout'
 
 const avoFacts = [
   {
-    title: 'Most avocados come from Mexico',
+    title: 'The drawing',
     content:
-      'While avocados are grown in California and Florida, the majority sold in grocery stores come from south central Mexico. The main reason for the abundance of “south of the border” avocados is that Mexico is blessed with a year-round growing climate. The avocado is believed to have originated in the state of Puebla, Mexico, as far back as 10,000 B.C.',
+      'When I was 5 years old I used to practice drawing with watercolors, I liked to recreate any drawing I saw in a storybook. Today I still like to paint with watercolors as a hobby, but I’m not very good at it. ',
   },
   {
-    title: 'The conquistadors were huge fans.',
+    title: 'The Nature',
     content:
-      'Spanish explorers arriving in Mexico during the 16th century survived on avocados and were the first Europeans to consume them. As a result of the Spanish Conquest, avocados spread to South America and Central America. ',
+      'I have a great fondness for animals and nature. I love spending time outdoors and observing the beauty of the natural world. I also enjoy interacting with animals and feel a strong connection to them. I believe that animals are intelligent and sensitive creatures, and I appreciate their unique abilities. ',
   },
   {
-    title: '“Avocado” wasn’t its original name.',
+    title: 'A social person',
     content:
-      'Irishman Sir Hans Sloane called it an avocado in 1696 in a Jamaican-plants catalog. He also dubbed the avocado tree the “alligator pear tree.”',
+      'I want to know what is happening in the world, and I want to know about the people in my life. I like to be able to have conversations about a variety of topics, and I enjoy learning new things. ',
   },
   {
-    title: 'It’s actually a fruit.',
+    title: 'Biology and Archeology',
     content:
-      'Did you know that an avocado is a fruit? While definitely not sweet, it falls firmly in the fruit-not the vegetable-family. That’s because the avocado tree is part of the flowering-plant family Lauraceae.',
+      'These are two of my favorite areas, which I enjoy listening to and watching documentaries about. ',
   },
   {
-    title: 'There’s a secret trick to ripening them up quick',
+    title: 'Music',
     content:
-      'Need to ripen that avocado ASAP? Place it in a brown paper bag with a banana or two. The bananas will release ethylene gas, a natural plant hormone that aids in ripening fruit. On the other hand, check out this guide to learn how to store them for later.',
+      'My favorite genre is Hip Hop, but I also like songs from other types of genres and bands like Coldplay. Some of my favorite Hip Hop songs are "Lose Yourself" by Eminem, "In Da Club" by 50 Cent and "Stil" by Dr. Dre. ',
+  },
+  {
+    title: 'Artificial Intelligence',
+    content:
+      'I am very interested in artificial intelligence (AI) and robotics. I wish I could contribute several things for the benefit of society. ',
+  },
+  {
+    title: 'My thinking',
+    content:
+      'This is a very common saying that basically means that to be successful, one must work hard and also be lucky. And I think success is a combination of hard work and luck. ',
   },
 ]
 
@@ -35,17 +45,17 @@ const AboutPage = () => {
     <Layout>
       <section>
         <Header as="h1" textAlign="center">
-          13 Surprising Facts About Avocados
+        7 facts about me
         </Header>
         <figure>
-          <Image src="/images/subaru.jpg" alt="Subaru Impreza" />
+          <Image src="/images/me.jpg" alt="Subaru Impreza" />
           <figcaption>
             Originally from{' '}
             <a
               target="_blank"
-              href="https://www.tasteofhome.com/article/13-surprising-facts-about-avocados/"
+              href="https://es.wikipedia.org/wiki/Loja_(Ecuador)"
             >
-              Taste of Home
+              Loja, Ecuador
             </a>
           </figcaption>
         </figure>
