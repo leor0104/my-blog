@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, Icon} from 'semantic-ui-react'
-import Image from 'next/Image';
+import Image from 'next/Image'
 import styles from '@components/Card/Card.module.css'
 
 const services = [{
