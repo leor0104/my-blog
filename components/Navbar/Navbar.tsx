@@ -22,13 +22,13 @@ const Navbar = () => {
             Leor IND
           </Menu.Item>
         </Link>
-        <Link href="/" passHref>
-          <Menu.Item active={pathname === '/cart'}>
+        <Link href="/contact" passHref>
+          <Menu.Item active={pathname === '/contact'}>
             Contact
           </Menu.Item>
         </Link>
         <Link href="/" passHref>
-          <Menu.Item active={pathname === '/cart'}>
+          <Menu.Item active={pathname === '/work'}>
             Work
           </Menu.Item>
         </Link>
