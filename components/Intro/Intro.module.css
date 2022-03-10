@@ -27,6 +27,7 @@
 }
 
 .introResume {
+    width: 60%;
     flex-direction: column;
     justify-content: center;
     align-self: center;

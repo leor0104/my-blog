@@ -1,12 +1,12 @@
 import React from 'react'
 import styles from '@components/Intro/Intro.module.css'
-import { Image } from 'semantic-ui-react'
+import Image from 'next/image'
 
 const src = "/images/subaru.jpg"
 
 const Intro = () => (
     <div className={styles.container}>
-        <Image src={src} size="medium" />
+        <Image src={src} width={300} height={450}/>
         <div className={styles.introResume}>
             <div className={styles.introTitle}>Hi, I'm Luis</div>
             <div >
