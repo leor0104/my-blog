@@ -14,10 +14,12 @@ const Header = ({ title }: HeaderProps) => {
             <style jsx>
                 {`
                     p{
-                        margin-bottom: 0px;
                         font-size: 0.9em;
                         color: grey;
                         margin-bottom: 8px
+                    }
+                    div { 
+                        margin-bottom: 32px;
                     }
                 `}
             </style>
