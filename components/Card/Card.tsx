@@ -7,7 +7,7 @@ const services = [{
     idService: 0,
     name: 'UI|UX Design',
     img: '/images/designecologist.jpg',
-    since: 'Since 2019',
+    since: '2019',
     description: 'Have a good experience and look good.',
     networks: [{
         name: 'Dribbble',
@@ -26,7 +26,7 @@ const services = [{
     idService: 1,
     name: 'Web Development',
     img: '/images/webapp.jpg',
-    since: 'Since 2020',
+    since: '2020',
     description: 'Development of a web application to achieve communication between us, the users, and the web.',
     networks: [{
         name: 'GitHub',
@@ -38,7 +38,7 @@ const services = [{
     idService: 2,
     name: 'Mobile Development',
     img: '/images/mobileapp.jpg',
-    since: 'Since 2020',
+    since: '2020',
     description: 'Development of mobile applications to offer convenience and generate presence to your users.',
     networks: [{
         name: 'GitHub',
