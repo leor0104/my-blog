@@ -1,5 +1,6 @@
 import React from 'react'
-import { Image, Header } from 'semantic-ui-react'
+import { Header } from 'semantic-ui-react'
+import Image from 'next/image'
 import Layout from '@components/Layout/Layout'
 
 const avoFacts = [
@@ -11,7 +12,7 @@ const avoFacts = [
   {
     title: 'The Nature',
     content:
-      'I have a great fondness for animals and nature. I love spending time outdoors and observing the beauty of the natural world. I also enjoy interacting with animals and feel a strong connection to them. I believe that animals are intelligent and sensitive creatures, and I appreciate their unique abilities. ',
+      'I have a great fondness for animals and nature. I love spending time outdoors and observing the beauty of the natural world. I believe that animals are intelligent and sensitive creatures, and I appreciate their unique abilities. ',
   },
   {
     title: 'A social person',
@@ -48,7 +49,7 @@ const AboutPage = () => {
         7 facts about me
         </Header>
         <figure>
-          <Image src="/images/me.jpg" alt="Subaru Impreza" />
+          <Image src="/images/me.jpg" alt="Me" width={700} height={467}/>
           <figcaption>
             Originally from{' '}
             <a
@@ -75,7 +76,6 @@ const AboutPage = () => {
           padding: 0;
           margin: 0;
         }
-
         figure {
           margin: 2rem auto 3rem;
           text-align: center;
